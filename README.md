@@ -73,7 +73,6 @@ The app also includes basic authentication-related pages with UI layouts:
   - Communicates with backend using the shared `Http` utility.
 - All input fields share a common `inputStyle` through `@Extend(TextInput)` for consistent look and feel.
 
----
 
 ## Architecture
 
@@ -155,4 +154,9 @@ Located in `views/NewsItem.ets`, this component renders an individual news entry
 4.Update Http.host in Http.ets if a different backend address is used.
 
 5.Build and run the entry module.
+
+## APP ScreenShots
+<img width="516" height="477" alt="image" src="https://github.com/user-attachments/assets/e4df13ee-322d-4cac-a9a7-60eb299ca1dc" />
+<img width="456" height="435" alt="image" src="https://github.com/user-attachments/assets/1906c6c7-7fd0-4142-818d-0657aac293ab" />
+
 
