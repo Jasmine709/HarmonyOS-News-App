@@ -2,7 +2,7 @@
 
 Project Duration: Oct 2023 – Jan 2024
 
-A mobile news and content application built with **HarmonyOS ArkTS**, featuring multiple pages, reusable components, and integration with a RESTful backend service.  
+A mobile news and content application built with **HarmonyOS ArkTS**, featuring multiple pages, reusable components, and integrates with a lightweight Node.js HTTP backend.  
 The app demonstrates declarative UI development, state management with `@State`, navigation with `@ohos.router`, and HTTP communication using `@ohos.net.http`.
 
 ## Features
@@ -54,7 +54,7 @@ The app demonstrates declarative UI development, state management with `@State`,
   - Provides inputs to fill in:
     - Receiver name
     - Phone number
-    - Shipping address (default value is set, e.g. a campus address)
+    - Shipping address
     - Quantity
   - Uses a shared `TitleBar` component at the top of the page.
 
