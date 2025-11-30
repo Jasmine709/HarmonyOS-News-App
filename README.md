@@ -95,7 +95,7 @@ The `Http` utility class (`model/Http.ets`) centralizes all network logic:
   ```ts
   static host = 'http://localhost:3000'
   ```
-- `get(data?) `constructs the full URL with optional query parameters.
+- `get(data?)` constructs the full URL with optional query parameters.
 If `data` is provided, the method appends each key–value pair to the URL as query parameters.  
 This allows different pages to request filtered or parameterized API data without rewriting URL logic.
 
@@ -140,7 +140,7 @@ Located in `views/NewsItem.ets`, this component renders an individual news entry
   - Timestamp and metadata
   - Thumbnail image loaded from a remote URL
   - Optional pricing information
-- Structured using ArkTS declarative UI primitives such as `Column`, `Row`, `Flex`, `Image`, and `Text`
+- Structured using ArkTS declarative UI primitives such as `Column`, `Row`, `Flex`, `Image`, and `Text`.
 - Supports a `@Preview` decorator for design-time preview in DevEco Studio
 
 ## How to Run
