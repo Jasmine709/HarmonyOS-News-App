@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/IndexPage",
+    "pages/LoginPage",
+    "pages/OrderPage",
+    "pages/RegistePage",
+    "pages/SportPage",
+    "pages/ResetPasswordPage"
+  ]
+}
